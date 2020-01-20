@@ -156,7 +156,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -269,6 +269,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2201294319695625930, guid: f244f0434ef455f45a2d64427c214caa,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596354450549982576, guid: f244f0434ef455f45a2d64427c214caa,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.3070157
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596354450549982576, guid: f244f0434ef455f45a2d64427c214caa,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 7.137988
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596354450549982576, guid: f244f0434ef455f45a2d64427c214caa,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.9404547
+      objectReference: {fileID: 0}
+    - target: {fileID: 5596354450549982576, guid: f244f0434ef455f45a2d64427c214caa,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.04427771
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f244f0434ef455f45a2d64427c214caa, type: 3}
@@ -443,6 +468,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1165908360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165908354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240a9c7ca2000474a98ab94c9f0c1d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_obj: {fileID: 1456833497}
+  Explosion: {fileID: 8689377869896883653, guid: 47cad7a1c87fdea4b874988be9863aba,
+    type: 3}
 --- !u!1 &1456833497
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,15 +561,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b92139c7f34ee574f81141f2696aafaa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e72b40e99567b2e4098a4e57ced51b47, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 22.302065, y: 21.42}
+  m_Size: {x: 20, y: 20}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1456833500
