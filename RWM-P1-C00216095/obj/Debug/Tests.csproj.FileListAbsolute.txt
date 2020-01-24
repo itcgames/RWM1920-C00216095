@@ -1,0 +1,2 @@
+C:\Users\Alex\Desktop\RWM1920-C00216095\RWM-P1-C00216095\obj\Debug\Tests.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\RWM1920-C00216095\RWM-P1-C00216095\obj\Debug\Tests.csproj.CoreCompileInputs.cache

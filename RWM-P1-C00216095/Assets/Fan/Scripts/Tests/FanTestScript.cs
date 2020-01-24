@@ -22,12 +22,10 @@ namespace Tests
         [UnityTest]
         public IEnumerator VelocityTest()
         {
-            bool velocityFlipped = false;
-            if (TestBall.GetComponent<Rigidbody2D>().velocity.y > 1)
-            {
-                velocityFlipped = true;
-            }
-            yield return velocityFlipped;
+            float previousVel = TestBall.GetComponent<Rigidbody2D>().velocity.y;
+            yield return new WaitForSeconds(2);
+            Assert.AreNotSame(TestBall.GetComponent<Rigidbody2D>().velocity.y, previousVel, "Test to see if velocity is changing (Falling and rising)");
+            //yield return null;
         }
     }
 }

@@ -8,6 +8,11 @@ public class FanScript : MonoBehaviour
     public GameObject Explosion;
     float criticalVelocity = 9;
     int damageCount = 3;
+
+    private void Update()
+    {
+        Debug.Log(m_obj.GetComponent<Rigidbody2D>().velocity.y);
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log(m_obj.GetComponent<Rigidbody2D>().velocity.y * -1);
